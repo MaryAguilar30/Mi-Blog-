@@ -1,8 +1,9 @@
-body{
+.mean {
    margin: 0%;
    background-image: url("./imag/Fondo.jpg");
    background-size: cover;
    background-repeat: no-repeat;
+   opacity: 1;
    
 
 }
@@ -271,4 +272,16 @@ a:after {
 
 a:hover::after {
    bottom: 0;
+}
+
+.fondonote {
+   margin: 0%;
+   background-position: center center;
+   background-image: url(./imag/back.jpg);
+   background-size: cover;
+   height: 20cm;
+   padding: 30px;
+   
+ 
+
 }
