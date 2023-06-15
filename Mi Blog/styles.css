@@ -276,12 +276,25 @@ a:hover::after {
 
 .fondonote {
    margin: 0%;
-   background-position: center center;
+   background-position: center center ;
    background-image: url(./imag/back.jpg);
    background-size: cover;
    height: 20cm;
    padding: 30px;
+   opacity: 0.7;
    
  
 
+}
+
+.note{
+
+   position: absolute;
+   width: 290px;
+   height: 255px;
+   background-size:cover;
+   border-radius: 20px;
+   overflow: hidden;
+   padding: 10px;
+   margin: 0 auto;
 }
